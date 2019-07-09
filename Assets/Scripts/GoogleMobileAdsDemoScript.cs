@@ -20,7 +20,7 @@ public class GoogleMobileAdsDemoScript : MonoBehaviour
     {
 
 #if UNITY_ANDROID
-        string appId = "ca-app-pub-8911751529493940~6652798480";
+        string appId = "ca-app-pub-3940256099942544~3347511713";
 #elif UNITY_IPHONE
         string appId = "ca-app-pub-3940256099942544~1458002511";
 #else
@@ -144,7 +144,7 @@ public class GoogleMobileAdsDemoScript : MonoBehaviour
     {
         return new AdRequest.Builder()
             .AddTestDevice(AdRequest.TestDeviceSimulator)
-            .AddTestDevice("6825871CD5B710BBFC9384AD533A7337")
+            .AddTestDevice("0123456789ABCDEF0123456789ABCDEF")
             .AddKeyword("game")
             .SetGender(Gender.Male)
             .SetBirthday(new DateTime(1985, 1, 1))
@@ -159,7 +159,7 @@ public class GoogleMobileAdsDemoScript : MonoBehaviour
 #if UNITY_EDITOR
         string adUnitId = "unused";
 #elif UNITY_ANDROID
-        string adUnitId = "ca-app-pub-8911751529493940/1348500917";
+        string adUnitId = "ca-app-pub-3940256099942544/6300978111";
 #elif UNITY_IPHONE
         string adUnitId = "ca-app-pub-3940256099942544/2934735716";
 #else
@@ -192,7 +192,7 @@ public class GoogleMobileAdsDemoScript : MonoBehaviour
 #if UNITY_EDITOR
         string adUnitId = "unused";
 #elif UNITY_ANDROID
-        string adUnitId = "ca-app-pub-8911751529493940/2713553475";
+        string adUnitId = "ca-app-pub-3940256099942544/1033173712";
 #elif UNITY_IPHONE
         string adUnitId = "ca-app-pub-3940256099942544/4411468910";
 #else
@@ -224,7 +224,7 @@ public class GoogleMobileAdsDemoScript : MonoBehaviour
 #if UNITY_EDITOR
         string adUnitId = "unused";
 #elif UNITY_ANDROID
-        string adUnitId = "ca-app-pub-8911751529493940/2278439201";
+        string adUnitId = "ca-app-pub-3940256099942544/5224354917";
 #elif UNITY_IPHONE
         string adUnitId = "ca-app-pub-3940256099942544/1712485313";
 #else
